@@ -1,2 +1,0 @@
-# IYNA
-First project 
