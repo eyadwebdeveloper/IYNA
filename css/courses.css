@@ -1,0 +1,95 @@
+*{
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.courses_page {
+  background-color: var(--second-color-plate);
+  background-size: 100%;
+}
+.courses_page #container {
+  background: url(../resources/background_CoursesPage.jpg) no-repeat top center, url(../resources/lower_background_LP.jpg) repeat;
+  background-size: contain;
+}
+.courses_head .nav_but a:nth-child(3):after {
+  width: 100%;
+}
+.courses_sec1 {
+  display: flex;
+  padding: 20% 0;
+  align-items: center;
+}
+h2{
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.courses{
+  display: flex;
+}
+.cardd{
+  display: flex;
+  color: #fff;
+  background: #000;
+  border-radius: 10px;
+  width: 700px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+  margin-left: 20px;
+}
+
+.cardd img{
+  margin-right: 20px;
+}
+.cardd h3{
+  color: #3232e5;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.cardd h4{
+  color: grey;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.cardd p{
+  margin-bottom: 15px;
+}
+.cardd a{
+  
+  color: #3232e5;
+  text-decoration: none;
+  font-weight: 600;
+}
+.bott{
+  display: flex;
+  color: #ffffff;
+  margin-top: 10px;
+
+}
+.bott h3{
+  margin-right: 100px;
+  background: green;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 10;
+}
+.bott p {
+  font-size: 20px;
+}
+/* ======================== */
+
+#container {
+  padding: 0px 15%;
+}
+
+section {
+  padding: 0 0 10rem;
+}
+
+@media only screen and (max-width: 1110px) {
+  .courses > ul > li > a > img {
+    width: 150px;
+    height: 196px;
+  }
+}
