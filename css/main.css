@@ -188,7 +188,7 @@ nav {
   margin-bottom: 35px;
   color: var(--white-color);
   font: var(--font-weight-extrabold) 46pt var(--inter-font-family);
-  height: 222px;
+  height: 60%;
   overflow: hidden;
   cursor: default;
 }
