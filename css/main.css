@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 body{
-  background-image:  url('resources/loader.gif') no-repeat center center;
+  background-image: #000 url('resources/loader.gif') no-repeat center center;
 }
 @font-face {
   font-family: organetto;
